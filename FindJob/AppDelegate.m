@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AppDelegate+ex_count.h"
 @interface AppDelegate ()
 
 @end
@@ -47,5 +47,14 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(void)logEXCount
+{
+    NSLog(@"logEXCount:::%@",@(self.ex_count));
+}
+
+-(void)whatAreYouDoing
+{
+    NSLog(@"%@",NSStringFromSelector(_cmd));
+}
 
 @end

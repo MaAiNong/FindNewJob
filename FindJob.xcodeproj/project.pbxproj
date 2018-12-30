@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4325BB21D60C7100974BD5 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4325BA21D60C7100974BD5 /* Shape.m */; };
+		0A4325BE21D60C8600974BD5 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4325BD21D60C8600974BD5 /* Circle.m */; };
+		0A4325C421D6377800974BD5 /* NSTestProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4325C321D6377800974BD5 /* NSTestProperty.m */; };
+		0A4325C721D6378F00974BD5 /* NSSubTestProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4325C621D6378F00974BD5 /* NSSubTestProperty.m */; };
+		0A7989BA21D75E3800DE96E5 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7989B921D75E3800DE96E5 /* Father.m */; };
+		0A7989BD21D75E4400DE96E5 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7989BC21D75E4400DE96E5 /* Son.m */; };
 		0A97E35421D3C59900E68C8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A97E35321D3C59900E68C8A /* AppDelegate.m */; };
 		0A97E35721D3C59900E68C8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A97E35621D3C59900E68C8A /* ViewController.m */; };
 		0A97E35A21D3C59900E68C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A97E35821D3C59900E68C8A /* Main.storyboard */; };
 		0A97E35C21D3C59900E68C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A97E35B21D3C59900E68C8A /* Assets.xcassets */; };
 		0A97E35F21D3C59900E68C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A97E35D21D3C59900E68C8A /* LaunchScreen.storyboard */; };
 		0A97E36221D3C59900E68C8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A97E36121D3C59900E68C8A /* main.m */; };
+		0AE1246421D8B5B000321309 /* NSKVObseve.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1246321D8B5B000321309 /* NSKVObseve.m */; };
+		0AE1246721D8B5EA00321309 /* NSKVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1246621D8B5EA00321309 /* NSKVModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A4325B921D60C7100974BD5 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		0A4325BA21D60C7100974BD5 /* Shape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		0A4325BC21D60C8600974BD5 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		0A4325BD21D60C8600974BD5 /* Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		0A4325BF21D60D0D00974BD5 /* Shape+Vote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shape+Vote.h"; sourceTree = "<group>"; };
+		0A4325C121D632B900974BD5 /* ShapeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeProtocol.h; sourceTree = "<group>"; };
+		0A4325C221D6377800974BD5 /* NSTestProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTestProperty.h; sourceTree = "<group>"; };
+		0A4325C321D6377800974BD5 /* NSTestProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTestProperty.m; sourceTree = "<group>"; };
+		0A4325C521D6378F00974BD5 /* NSSubTestProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSSubTestProperty.h; sourceTree = "<group>"; };
+		0A4325C621D6378F00974BD5 /* NSSubTestProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSSubTestProperty.m; sourceTree = "<group>"; };
+		0A7989B821D75E3800DE96E5 /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		0A7989B921D75E3800DE96E5 /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		0A7989BB21D75E4400DE96E5 /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		0A7989BC21D75E4400DE96E5 /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
 		0A97E34F21D3C59900E68C8A /* FindJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A97E35221D3C59900E68C8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A97E35321D3C59900E68C8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +48,11 @@
 		0A97E35E21D3C59900E68C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A97E36021D3C59900E68C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A97E36121D3C59900E68C8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A97E36921D3C6E900E68C8A /* AppDelegate+ex_count.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ex_count.h"; sourceTree = "<group>"; };
+		0AE1246221D8B5B000321309 /* NSKVObseve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSKVObseve.h; sourceTree = "<group>"; };
+		0AE1246321D8B5B000321309 /* NSKVObseve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVObseve.m; sourceTree = "<group>"; };
+		0AE1246521D8B5EA00321309 /* NSKVModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSKVModel.h; sourceTree = "<group>"; };
+		0AE1246621D8B5EA00321309 /* NSKVModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +66,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A7989B721D75E1D00DE96E5 /* father&son */ = {
+			isa = PBXGroup;
+			children = (
+				0A7989B821D75E3800DE96E5 /* Father.h */,
+				0A7989B921D75E3800DE96E5 /* Father.m */,
+				0A7989BB21D75E4400DE96E5 /* Son.h */,
+				0A7989BC21D75E4400DE96E5 /* Son.m */,
+			);
+			path = "father&son";
+			sourceTree = "<group>";
+		};
+		0A83BD6521D7598200917674 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A97E36921D3C6E900E68C8A /* AppDelegate+ex_count.h */,
+				0A4325C221D6377800974BD5 /* NSTestProperty.h */,
+				0A4325C321D6377800974BD5 /* NSTestProperty.m */,
+				0A4325C521D6378F00974BD5 /* NSSubTestProperty.h */,
+				0A4325C621D6378F00974BD5 /* NSSubTestProperty.m */,
+				0A4325C121D632B900974BD5 /* ShapeProtocol.h */,
+				0A4325B921D60C7100974BD5 /* Shape.h */,
+				0A4325BA21D60C7100974BD5 /* Shape.m */,
+				0A4325BF21D60D0D00974BD5 /* Shape+Vote.h */,
+				0A4325BC21D60C8600974BD5 /* Circle.h */,
+				0A4325BD21D60C8600974BD5 /* Circle.m */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		0A97E34621D3C59900E68C8A = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +118,9 @@
 				0A97E35321D3C59900E68C8A /* AppDelegate.m */,
 				0A97E35521D3C59900E68C8A /* ViewController.h */,
 				0A97E35621D3C59900E68C8A /* ViewController.m */,
+				0AE1246121D8B56500321309 /* KVO */,
+				0A7989B721D75E1D00DE96E5 /* father&son */,
+				0A83BD6521D7598200917674 /* extension */,
 				0A97E35821D3C59900E68C8A /* Main.storyboard */,
 				0A97E35B21D3C59900E68C8A /* Assets.xcassets */,
 				0A97E35D21D3C59900E68C8A /* LaunchScreen.storyboard */,
@@ -69,6 +128,17 @@
 				0A97E36121D3C59900E68C8A /* main.m */,
 			);
 			path = FindJob;
+			sourceTree = "<group>";
+		};
+		0AE1246121D8B56500321309 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				0AE1246221D8B5B000321309 /* NSKVObseve.h */,
+				0AE1246321D8B5B000321309 /* NSKVObseve.m */,
+				0AE1246521D8B5EA00321309 /* NSKVModel.h */,
+				0AE1246621D8B5EA00321309 /* NSKVModel.m */,
+			);
+			path = KVO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +213,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A97E35721D3C59900E68C8A /* ViewController.m in Sources */,
+				0A4325C421D6377800974BD5 /* NSTestProperty.m in Sources */,
+				0A4325C721D6378F00974BD5 /* NSSubTestProperty.m in Sources */,
+				0AE1246421D8B5B000321309 /* NSKVObseve.m in Sources */,
 				0A97E36221D3C59900E68C8A /* main.m in Sources */,
+				0A4325BE21D60C8600974BD5 /* Circle.m in Sources */,
+				0AE1246721D8B5EA00321309 /* NSKVModel.m in Sources */,
+				0A7989BA21D75E3800DE96E5 /* Father.m in Sources */,
+				0A7989BD21D75E4400DE96E5 /* Son.m in Sources */,
 				0A97E35421D3C59900E68C8A /* AppDelegate.m in Sources */,
+				0A4325BB21D60C7100974BD5 /* Shape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

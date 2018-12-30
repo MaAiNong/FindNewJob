@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "AppDelegate+ex_count.h"
+#import "Circle.h"
+#import "Son.h"
+#import "NSKVObseve.h"
 
 @interface ViewController ()
 
@@ -16,7 +20,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    ((AppDelegate*)[UIApplication sharedApplication].delegate).ex_count = 10;
+    [(AppDelegate*)[UIApplication sharedApplication].delegate logEXCount];
+    
+    [(AppDelegate*)[UIApplication sharedApplication].delegate whatAreYouDoing];
+    
+    //KVO
+    NSKVObseve* observe = [[NSKVObseve alloc] init];
+    [observe fire];
+    observe = nil;
+    
+    //Extension -------------------------------
+    Circle* circle = [[Circle alloc] init];
+    [circle logVoteNumber];
+    
+    //Father and son -------------------------------
+    Son *son = [[Son alloc] init];
+    [son whoAreYou];
+    
+    
 }
 
 
